@@ -40,7 +40,8 @@ const SCRIPT_YPI_MIN_URL = '../js/ypi_min-1.5.5.js';
 const SCRIPT_HELPER_URL= '../js/helper.js';
 ```
 
-Now register route for NpcPresenter in Nette router factory:
+Now register route for NpcPresenter in 
+**Nette router factory:**
 
 ```php
 $router[] = new Route('<presenter>/<action>[/<id>]', 'Npc:default');
