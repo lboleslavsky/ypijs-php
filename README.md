@@ -1,4 +1,4 @@
-Your Presentation Interface add-on for Nette Framework (but you can use it separately)  
+Your Presentation Interface add-on for Nette Framework
 ===================
 
 Package Content
