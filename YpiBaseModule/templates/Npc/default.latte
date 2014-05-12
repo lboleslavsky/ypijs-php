@@ -1,0 +1,22 @@
+{*  
+    Latte template for NpcPresenter
+    
+    components:            
+        @control avatar1 - avatar
+        @control reactions - panel with reactions
+        @control ypiBase - main script base
+*}
+
+{block head}
+<link rel="stylesheet" type="text/css" href="{$basePath}/css/dialog.css"/>
+{/block}
+
+{block content}
+    {control avatar1}
+    {control reactions}
+{/block}
+
+{block #scripts}
+    <script src="{$basePath}/js/jquery.js"></script>
+    {control ypiBase}
+{/block}

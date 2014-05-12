@@ -1,0 +1,14 @@
+{*
+    Latte template for YpiControl 
+    ---
+    @param $script - base ypi script
+*}
+
+{block content}
+    {$script|noescape}   
+<script>
+        $(document).ready(function () {
+            // force init function 
+            ypi.df.invokeInit();
+        });
+</script>
