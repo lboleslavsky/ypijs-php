@@ -11,10 +11,10 @@ Core scripts, you can use it without Nette
 Controls for nette 
 
 **js**
-Ypi javascript files (copy into your <base_dir>/js dir)
+Ypi javascript files (copy into your {base_dir}/js dir)
 
 **css**
-Stylesheet files (copy into your <base_dir>/css dir)
+Stylesheet files (copy into your {base_dir}/css dir)
 
 **presenters**
 Demo presenters for Nette Framework.
@@ -25,9 +25,9 @@ Templates for Nette presenters.
 Installation 
 -------------------
 
-- Get Nette Framework version: > +2.0 
-- At first copy module to app folder of your skeleton application. Then copy YpiBaseModule/css/* to <base_dir>/css and YpiBaseModule/js/* to <base_dir>/js folder. 
-Depends on your current Nette installation <base_dir> should be where Nette index.php is. Then copy XML dialog definition file to <base_dir>. 
+- Get Nette Framework version: +2.0 
+- At first copy module to app folder of your skeleton application. Then copy YpiBaseModule/css/* to {base_dir}/css and YpiBaseModule/js/* to {base_dir}/js folder. 
+Depends on your current Nette installation {base_dir} should be where Nette index.php is. Then copy XML dialog definition file to {base_dir}. 
 
 Corresponding settings:
 -------------------
@@ -46,4 +46,4 @@ Now register route for NpcPresenter in Nette router factory:
 $router[] = new Route('<presenter>/<action>[/<id>]', 'Npc:default');
 ```
 
-And when it is all done type to your browser: "<nette_public_www_url>/npc/"
+And when it is all done type to your browser: "{nette_public_www_url}/npc/"
