@@ -14,10 +14,7 @@ use YpiControls\YpiControl;
 
 use Nette\Application\UI;
 use Ypi\Core\JSFunc;
-/**
- * 
- * @author lukas
- */
+
 class NpcPresenter extends BasePresenter implements INpcPresenter { 
     
     // base script component
