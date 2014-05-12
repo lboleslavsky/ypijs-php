@@ -5,22 +5,22 @@ Package Content
 -------------------
 
 **Ypi**
-Core scripts, you can use it without Nette
+- Core scripts, you can use it without Nette
 
 **YpiControl**
-Controls for nette 
+- Controls for nette 
 
 **js**
-Ypi javascript files (copy into your {base_dir}/js dir)
+- Ypi javascript files (copy into your {base_dir}/js dir)
 
 **css**
-Stylesheet files (copy into your {base_dir}/css dir)
+- Stylesheet files (copy into your {base_dir}/css dir)
 
 **presenters**
-Demo presenters for Nette Framework.
+- Demo presenters for Nette Framework.
 
 **templates**
-Templates for Nette presenters.
+- Templates for Nette presenters.
 
 Installation 
 -------------------
