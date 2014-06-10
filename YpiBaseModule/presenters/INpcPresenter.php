@@ -18,7 +18,7 @@ interface INpcPresenter {
     
     const CLASS_PATH_AVATAR = 'YpiControls\Avatar';
     const CLASS_PATH_PANEL_REACTIONS = 'YpiControls\PanelReactions';
-    const SCRIPT_YPI_MIN_URL = '../js/ypi_min-1.5.5.js';
+    const SCRIPT_YPI_MIN_URL = '../js/ypi_min-1.5.7.js';
     const SCRIPT_HELPER_URL= '../js/helper.js';
     const SCRIPT_CHAPTER_URL = 'http://localhost/k/www/welcome.xml';
     const INIT_STATE = 'n1';

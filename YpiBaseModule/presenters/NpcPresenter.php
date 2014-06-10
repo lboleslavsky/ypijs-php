@@ -43,6 +43,7 @@ class NpcPresenter extends BasePresenter implements INpcPresenter {
                             'chapterUrl'=>$this::SCRIPT_CHAPTER_URL,
                             'isAutostart'=>true,
                             'isSoundEnabled'=>true,
+                            'isExprEnabled'=>true,    
                             'attrCase'=>array($this::CUSTOM_CASE_ATTRIBUTE_TRACK));
         
         $avatarAttr = array(
